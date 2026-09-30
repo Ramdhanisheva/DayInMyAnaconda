@@ -10,7 +10,7 @@ Proyek Mata Kuliah **Statistika & Probabilitas (STATPROB)**
 
 Untuk menjaga alur analisis tetap runtut dan mendalam, pengerjaan tugas besar ini dibagi ke dalam tiga modul kerja:
 
-1. **Dyah Ayu** — **Modul 1: Pemahaman Data & Audit Kualitas Data**
+1. **Dyah Indana Zulfa** — **Modul 1: Pemahaman Data & Audit Kualitas Data**
    - Berkas: [`bagi-tugas/tugas2(dyah).ipynb`](bagi-tugas/tugas2(dyah).ipynb)
    - Lingkup kerja: Pemuatan data mentah `train.csv`, pembersihan kolom indeks tidak relevan, verifikasi integritas baris/ID unik, penyusunan kamus data dan taksonomi variabel, pengujian mekanisme data hilang (*Missing at Random* / MAR), komparasi empiris metode imputasi keterlambatan, analisis nilai rating 0, serta evaluasi keterbatasan metode IQR pada variabel *zero-inflated*.
 
