@@ -1,6 +1,6 @@
 # Analisis Data Eksploratif: Faktor-Faktor Penentu Kepuasan Penumpang Maskapai Penerbangan (Airline Passenger Satisfaction)
 
-Proyek Tugas Besar Mata Kuliah **Statistika & Probabilitas (STATPROB)**  
+Proyek Mata Kuliah **Statistika & Probabilitas (STATPROB)**  
 **Kelompok:** Day in My Anaconda  
 **Dataset Utama:** `data/train.csv` (103.904 baris observasi, 24 variabel analitis)
 
