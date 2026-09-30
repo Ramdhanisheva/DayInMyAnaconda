@@ -47,7 +47,9 @@ Untuk memastikan analisis dilakukan secara komprehensif, terstruktur, dan objekt
      - Perancangan dan pengujian fungsi *preprocessing* modular `prepare(df)` yang bersih dan bebas dari kebocoran data (*data leakage*).
      - Perumusan batasan metodologis analisis (*limitations*) serta perumusan 4 pilar rekomendasi strategis bagi pihak manajemen maskapai penerbangan.
 
-> **Laporan Terpadu:** Seluruh modul 1 sampai 4 di atas telah dirangkai secara berurutan dan terpadu dalam satu berkas notebook master: [**`eda_DayInMyAnaconda.ipynb`**](eda_DayInMyAnaconda.ipynb).
+> **Dua Varian Laporan Terpadu:**
+> 1. [**`eda_DayInMyAnaconda.ipynb`**](eda_DayInMyAnaconda.ipynb) — **Laporan Investigasi Komprehensif & Mendalam** (Bab I s.d. Bab IV: Audit Data, Analisis Univariat/Bivariat, Uji Confounding Simpson's Paradox, Preprocessing Pipeline, dan Validasi Model ML Baseline).
+> 2. [**`eda2_DayInMyAnaconda.ipynb`**](eda2_DayInMyAnaconda.ipynb) — **Notebook Panduan Praktis Step-by-Step (Langkah 1 s.d. 15)** (Mengadopsi format pedagogis standar perkuliahan: Kamus Data, Inspeksi Tipe Data, Missing Value MCAR/MAR, Univariat/Bivariat, Deteksi Outlier IQR/Z-score, Ringkasan EDA, Preprocessing Bersih, Checklist, dan 6 Diskusi Latihan Mahasiswa).
 
 ---
 
@@ -116,7 +118,8 @@ proyek-eda-DayInMyAnaconda/
 ├── data/
 │   ├── train.csv                      # Dataset utama analisis (103.904 baris, 24 fitur)
 │   └── test.csv                       # Dataset uji terpisah
-├── eda_DayInMyAnaconda.ipynb          # Master Notebook: Laporan Terpadu (Bab I s.d. IV)
+├── eda_DayInMyAnaconda.ipynb          # Master Notebook 1: Laporan Investigasi Komprehensif (Bab I s.d. IV)
+├── eda2_DayInMyAnaconda.ipynb         # Master Notebook 2: Panduan Praktis 15 Langkah Step-by-Step
 ├── bagi-tugas/                        # Lembar kerja pembagian tugas mandiri per anggota
 │   ├── tugas1(dyah).ipynb             # Tugas 1: Pemahaman Data, Audit Kualitas & Missing Value (Dyah)
 │   ├── tugas2(andika).ipynb           # Tugas 2: Analisis Univariat & Profil Karakteristik (Andika)
@@ -149,7 +152,11 @@ proyek-eda-DayInMyAnaconda/
    ```
 2. Untuk membuka laporan terpadu:
    ```bash
+   # Varian 1: Laporan Investigasi Komprehensif & Pemodelan Machine Learning
    jupyter lab eda_DayInMyAnaconda.ipynb
+
+   # Varian 2: Laporan Step-by-Step 15 Langkah Pedagogis Sederhana
+   jupyter lab eda2_DayInMyAnaconda.ipynb
    ```
 3. Untuk membuka lembar kerja mandiri per anggota kelompok:
    ```bash
